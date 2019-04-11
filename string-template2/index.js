@@ -40,4 +40,6 @@ describe('Template string, can contain multiline content', function() {
       });
     });
   });
+
+  // So long and thanks for all the fish
   
