@@ -9,7 +9,7 @@ describe('Tagged template strings, are an advanced form of template strings', fu
       }
       // var evaluated = tagFunc `template string`;
       var evaluated =`template string`;
-      // delated the tagFunc
+      // deleted the tagFunc
       
       assert.equal(evaluated, 'template string');
     });
