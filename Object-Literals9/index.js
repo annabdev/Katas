@@ -49,3 +49,5 @@ describe('The object literal allows for new shorthands', () => {
   });
   //turn inlineFunc into a function that called a return 
   
+
+  //test
