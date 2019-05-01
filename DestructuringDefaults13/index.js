@@ -12,7 +12,7 @@ describe('When destructuring you can also provide default values', () => {
     
     it('for a missing value', () => {
       //const [b=2] = [1,,3];
-      const [a,b=2, c] = [1,,3];
+      const [,b=2] = [1,,3];
       assert.equal(b, 2);
     });
     //added , in front of b to skip the first item in the array
